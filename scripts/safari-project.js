@@ -15,7 +15,10 @@ const result = spawnSync('xcrun', [
   'safari-web-extension-converter', extensionDir,
   '--project-location', projectDir,
   '--app-name', 'Angry Study Helper',
-  '--bundle-identifier', 'com.angrystudyhelper.safari',
+  // The converter uses this value for the extension and derives the
+  // containing app identifier from the app name. Passing the derived app ID
+  // keeps the embedded extension identifier properly prefixed.
+  '--bundle-identifier', 'com.angrystudyhelper.Angry-Study-Helper',
   '--macos-only', '--no-open', '--no-prompt', '--force', '--copy-resources'
 ], { stdio: 'inherit' });
 

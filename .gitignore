@@ -1,1 +1,14 @@
-dist/.DS_Store
+# Generated browser builds
+dist/
+build/
+
+# Generated Apple/Xcode wrapper and build products
+safari/
+DerivedData/
+*.xcarchive/
+*.app/
+*.appex/
+
+# Local macOS/editor files
+.DS_Store
+*.swp

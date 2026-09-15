@@ -7,81 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DB5C85730597D2B0051179F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5C85630597D2B0051179F /* AppDelegate.swift */; };
-		4DB5C85B30597D2B0051179F /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C85930597D2B0051179F /* Main.html */; };
-		4DB5C85D30597D2B0051179F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C85C30597D2B0051179F /* Icon.png */; };
-		4DB5C85F30597D2B0051179F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C85E30597D2B0051179F /* Style.css */; };
-		4DB5C86130597D2B0051179F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C86030597D2B0051179F /* Script.js */; };
-		4DB5C86330597D2B0051179F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5C86230597D2B0051179F /* ViewController.swift */; };
-		4DB5C86630597D2B0051179F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C86430597D2B0051179F /* Main.storyboard */; };
-		4DB5C86830597D2C0051179F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C86730597D2C0051179F /* Assets.xcassets */; };
-		4DB5C86F30597D2C0051179F /* Angry Study Helper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4DB5C86E30597D2C0051179F /* Angry Study Helper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4DB5C87430597D2C0051179F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5C87330597D2C0051179F /* SafariWebExtensionHandler.swift */; };
-		4DB5C88930597D2C0051179F /* background in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C88030597D2C0051179F /* background */; };
-		4DB5C88A30597D2C0051179F /* settings in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C88130597D2C0051179F /* settings */; };
-		4DB5C88B30597D2C0051179F /* intervention in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C88230597D2C0051179F /* intervention */; };
-		4DB5C88C30597D2C0051179F /* popup in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C88330597D2C0051179F /* popup */; };
-		4DB5C88D30597D2C0051179F /* shared in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C88430597D2C0051179F /* shared */; };
-		4DB5C88E30597D2C0051179F /* browser in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C88530597D2C0051179F /* browser */; };
-		4DB5C88F30597D2C0051179F /* audio in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C88630597D2C0051179F /* audio */; };
-		4DB5C89030597D2C0051179F /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C88730597D2C0051179F /* icons */; };
-		4DB5C89130597D2C0051179F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DB5C88830597D2C0051179F /* manifest.json */; };
+		4D50DD443059899500BDD99D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50DD433059899500BDD99D /* AppDelegate.swift */; };
+		4D50DD483059899500BDD99D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD463059899500BDD99D /* Main.html */; };
+		4D50DD4A3059899500BDD99D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD493059899500BDD99D /* Icon.png */; };
+		4D50DD4C3059899500BDD99D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD4B3059899500BDD99D /* Style.css */; };
+		4D50DD4E3059899500BDD99D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD4D3059899500BDD99D /* Script.js */; };
+		4D50DD503059899500BDD99D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50DD4F3059899500BDD99D /* ViewController.swift */; };
+		4D50DD533059899500BDD99D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD513059899500BDD99D /* Main.storyboard */; };
+		4D50DD553059899700BDD99D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD543059899700BDD99D /* Assets.xcassets */; };
+		4D50DD5C3059899700BDD99D /* Angry Study Helper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4D50DD5B3059899700BDD99D /* Angry Study Helper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D50DD613059899700BDD99D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50DD603059899700BDD99D /* SafariWebExtensionHandler.swift */; };
+		4D50DD763059899700BDD99D /* background in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD6D3059899700BDD99D /* background */; };
+		4D50DD773059899700BDD99D /* settings in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD6E3059899700BDD99D /* settings */; };
+		4D50DD783059899700BDD99D /* intervention in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD6F3059899700BDD99D /* intervention */; };
+		4D50DD793059899700BDD99D /* popup in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD703059899700BDD99D /* popup */; };
+		4D50DD7A3059899700BDD99D /* shared in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD713059899700BDD99D /* shared */; };
+		4D50DD7B3059899700BDD99D /* browser in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD723059899700BDD99D /* browser */; };
+		4D50DD7C3059899700BDD99D /* audio in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD733059899700BDD99D /* audio */; };
+		4D50DD7D3059899700BDD99D /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD743059899700BDD99D /* icons */; };
+		4D50DD7E3059899700BDD99D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D50DD753059899700BDD99D /* manifest.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4DB5C87030597D2C0051179F /* PBXContainerItemProxy */ = {
+		4D50DD5D3059899700BDD99D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4DB5C84B30597D2A0051179F /* Project object */;
+			containerPortal = 4D50DD383059899500BDD99D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4DB5C86D30597D2C0051179F;
+			remoteGlobalIDString = 4D50DD5A3059899700BDD99D;
 			remoteInfo = "Angry Study Helper Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4DB5C87B30597D2C0051179F /* Embed Foundation Extensions */ = {
+		4D50DD683059899700BDD99D /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			dstPath = "";
 			dstSubfolder = PlugIns;
 			files = (
-				4DB5C86F30597D2C0051179F /* Angry Study Helper Extension.appex in Embed Foundation Extensions */,
+				4D50DD5C3059899700BDD99D /* Angry Study Helper Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4DB5C85330597D2B0051179F /* Angry Study Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Angry Study Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DB5C85630597D2B0051179F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DB5C85A30597D2B0051179F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
-		4DB5C85C30597D2B0051179F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		4DB5C85E30597D2B0051179F /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		4DB5C86030597D2B0051179F /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		4DB5C86230597D2B0051179F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4DB5C86530597D2B0051179F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4DB5C86730597D2C0051179F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4DB5C86930597D2C0051179F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DB5C86E30597D2C0051179F /* Angry Study Helper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Angry Study Helper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DB5C87330597D2C0051179F /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		4DB5C87530597D2C0051179F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DB5C88030597D2C0051179F /* background */ = {isa = PBXFileReference; lastKnownFileType = folder; name = background; path = Resources/background; sourceTree = "<group>"; };
-		4DB5C88130597D2C0051179F /* settings */ = {isa = PBXFileReference; lastKnownFileType = folder; name = settings; path = Resources/settings; sourceTree = "<group>"; };
-		4DB5C88230597D2C0051179F /* intervention */ = {isa = PBXFileReference; lastKnownFileType = folder; name = intervention; path = Resources/intervention; sourceTree = "<group>"; };
-		4DB5C88330597D2C0051179F /* popup */ = {isa = PBXFileReference; lastKnownFileType = folder; name = popup; path = Resources/popup; sourceTree = "<group>"; };
-		4DB5C88430597D2C0051179F /* shared */ = {isa = PBXFileReference; lastKnownFileType = folder; name = shared; path = Resources/shared; sourceTree = "<group>"; };
-		4DB5C88530597D2C0051179F /* browser */ = {isa = PBXFileReference; lastKnownFileType = folder; name = browser; path = Resources/browser; sourceTree = "<group>"; };
-		4DB5C88630597D2C0051179F /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; name = audio; path = Resources/audio; sourceTree = "<group>"; };
-		4DB5C88730597D2C0051179F /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
-		4DB5C88830597D2C0051179F /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		4D50DD403059899500BDD99D /* Angry Study Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Angry Study Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D50DD433059899500BDD99D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D50DD473059899500BDD99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		4D50DD493059899500BDD99D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4D50DD4B3059899500BDD99D /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		4D50DD4D3059899500BDD99D /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		4D50DD4F3059899500BDD99D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D50DD523059899500BDD99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D50DD543059899700BDD99D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D50DD563059899700BDD99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D50DD5B3059899700BDD99D /* Angry Study Helper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Angry Study Helper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D50DD603059899700BDD99D /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		4D50DD623059899700BDD99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D50DD6D3059899700BDD99D /* background */ = {isa = PBXFileReference; lastKnownFileType = folder; name = background; path = Resources/background; sourceTree = "<group>"; };
+		4D50DD6E3059899700BDD99D /* settings */ = {isa = PBXFileReference; lastKnownFileType = folder; name = settings; path = Resources/settings; sourceTree = "<group>"; };
+		4D50DD6F3059899700BDD99D /* intervention */ = {isa = PBXFileReference; lastKnownFileType = folder; name = intervention; path = Resources/intervention; sourceTree = "<group>"; };
+		4D50DD703059899700BDD99D /* popup */ = {isa = PBXFileReference; lastKnownFileType = folder; name = popup; path = Resources/popup; sourceTree = "<group>"; };
+		4D50DD713059899700BDD99D /* shared */ = {isa = PBXFileReference; lastKnownFileType = folder; name = shared; path = Resources/shared; sourceTree = "<group>"; };
+		4D50DD723059899700BDD99D /* browser */ = {isa = PBXFileReference; lastKnownFileType = folder; name = browser; path = Resources/browser; sourceTree = "<group>"; };
+		4D50DD733059899700BDD99D /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; name = audio; path = Resources/audio; sourceTree = "<group>"; };
+		4D50DD743059899700BDD99D /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
+		4D50DD753059899700BDD99D /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4DB5C85030597D2B0051179F /* Frameworks */ = {
+		4D50DD3D3059899500BDD99D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
 		};
-		4DB5C86B30597D2C0051179F /* Frameworks */ = {
+		4D50DD583059899700BDD99D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
@@ -89,70 +89,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DB5C84A30597D2A0051179F = {
+		4D50DD373059899500BDD99D = {
 			isa = PBXGroup;
 			children = (
-				4DB5C85530597D2B0051179F /* Angry Study Helper */,
-				4DB5C87230597D2C0051179F /* Angry Study Helper Extension */,
-				4DB5C85430597D2B0051179F /* Products */,
+				4D50DD423059899500BDD99D /* Angry Study Helper */,
+				4D50DD5F3059899700BDD99D /* Angry Study Helper Extension */,
+				4D50DD413059899500BDD99D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4DB5C85430597D2B0051179F /* Products */ = {
+		4D50DD413059899500BDD99D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DB5C85330597D2B0051179F /* Angry Study Helper.app */,
-				4DB5C86E30597D2C0051179F /* Angry Study Helper Extension.appex */,
+				4D50DD403059899500BDD99D /* Angry Study Helper.app */,
+				4D50DD5B3059899700BDD99D /* Angry Study Helper Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DB5C85530597D2B0051179F /* Angry Study Helper */ = {
+		4D50DD423059899500BDD99D /* Angry Study Helper */ = {
 			isa = PBXGroup;
 			children = (
-				4DB5C85630597D2B0051179F /* AppDelegate.swift */,
-				4DB5C86230597D2B0051179F /* ViewController.swift */,
-				4DB5C86430597D2B0051179F /* Main.storyboard */,
-				4DB5C86730597D2C0051179F /* Assets.xcassets */,
-				4DB5C86930597D2C0051179F /* Info.plist */,
-				4DB5C85830597D2B0051179F /* Resources */,
+				4D50DD433059899500BDD99D /* AppDelegate.swift */,
+				4D50DD4F3059899500BDD99D /* ViewController.swift */,
+				4D50DD513059899500BDD99D /* Main.storyboard */,
+				4D50DD543059899700BDD99D /* Assets.xcassets */,
+				4D50DD563059899700BDD99D /* Info.plist */,
+				4D50DD453059899500BDD99D /* Resources */,
 			);
 			path = "Angry Study Helper";
 			sourceTree = "<group>";
 		};
-		4DB5C85830597D2B0051179F /* Resources */ = {
+		4D50DD453059899500BDD99D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4DB5C85930597D2B0051179F /* Main.html */,
-				4DB5C85C30597D2B0051179F /* Icon.png */,
-				4DB5C85E30597D2B0051179F /* Style.css */,
-				4DB5C86030597D2B0051179F /* Script.js */,
+				4D50DD463059899500BDD99D /* Main.html */,
+				4D50DD493059899500BDD99D /* Icon.png */,
+				4D50DD4B3059899500BDD99D /* Style.css */,
+				4D50DD4D3059899500BDD99D /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		4DB5C87230597D2C0051179F /* Angry Study Helper Extension */ = {
+		4D50DD5F3059899700BDD99D /* Angry Study Helper Extension */ = {
 			isa = PBXGroup;
 			children = (
-				4DB5C87F30597D2C0051179F /* Resources */,
-				4DB5C87330597D2C0051179F /* SafariWebExtensionHandler.swift */,
-				4DB5C87530597D2C0051179F /* Info.plist */,
+				4D50DD6C3059899700BDD99D /* Resources */,
+				4D50DD603059899700BDD99D /* SafariWebExtensionHandler.swift */,
+				4D50DD623059899700BDD99D /* Info.plist */,
 			);
 			path = "Angry Study Helper Extension";
 			sourceTree = "<group>";
 		};
-		4DB5C87F30597D2C0051179F /* Resources */ = {
+		4D50DD6C3059899700BDD99D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4DB5C88030597D2C0051179F /* background */,
-				4DB5C88130597D2C0051179F /* settings */,
-				4DB5C88230597D2C0051179F /* intervention */,
-				4DB5C88330597D2C0051179F /* popup */,
-				4DB5C88430597D2C0051179F /* shared */,
-				4DB5C88530597D2C0051179F /* browser */,
-				4DB5C88630597D2C0051179F /* audio */,
-				4DB5C88730597D2C0051179F /* icons */,
-				4DB5C88830597D2C0051179F /* manifest.json */,
+				4D50DD6D3059899700BDD99D /* background */,
+				4D50DD6E3059899700BDD99D /* settings */,
+				4D50DD6F3059899700BDD99D /* intervention */,
+				4D50DD703059899700BDD99D /* popup */,
+				4D50DD713059899700BDD99D /* shared */,
+				4D50DD723059899700BDD99D /* browser */,
+				4D50DD733059899700BDD99D /* audio */,
+				4D50DD743059899700BDD99D /* icons */,
+				4D50DD753059899700BDD99D /* manifest.json */,
 			);
 			name = Resources;
 			path = "Angry Study Helper Extension";
@@ -161,143 +161,143 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4DB5C85230597D2B0051179F /* Angry Study Helper */ = {
+		4D50DD3F3059899500BDD99D /* Angry Study Helper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DB5C87C30597D2C0051179F /* Build configuration list for PBXNativeTarget "Angry Study Helper" */;
+			buildConfigurationList = 4D50DD693059899700BDD99D /* Build configuration list for PBXNativeTarget "Angry Study Helper" */;
 			buildPhases = (
-				4DB5C84F30597D2B0051179F /* Sources */,
-				4DB5C85030597D2B0051179F /* Frameworks */,
-				4DB5C85130597D2B0051179F /* Resources */,
-				4DB5C87B30597D2C0051179F /* Embed Foundation Extensions */,
+				4D50DD3C3059899500BDD99D /* Sources */,
+				4D50DD3D3059899500BDD99D /* Frameworks */,
+				4D50DD3E3059899500BDD99D /* Resources */,
+				4D50DD683059899700BDD99D /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4DB5C87130597D2C0051179F /* PBXTargetDependency */,
+				4D50DD5E3059899700BDD99D /* PBXTargetDependency */,
 			);
 			name = "Angry Study Helper";
 			productName = "Angry Study Helper";
-			productReference = 4DB5C85330597D2B0051179F /* Angry Study Helper.app */;
+			productReference = 4D50DD403059899500BDD99D /* Angry Study Helper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4DB5C86D30597D2C0051179F /* Angry Study Helper Extension */ = {
+		4D50DD5A3059899700BDD99D /* Angry Study Helper Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DB5C87830597D2C0051179F /* Build configuration list for PBXNativeTarget "Angry Study Helper Extension" */;
+			buildConfigurationList = 4D50DD653059899700BDD99D /* Build configuration list for PBXNativeTarget "Angry Study Helper Extension" */;
 			buildPhases = (
-				4DB5C86A30597D2C0051179F /* Sources */,
-				4DB5C86B30597D2C0051179F /* Frameworks */,
-				4DB5C86C30597D2C0051179F /* Resources */,
+				4D50DD573059899700BDD99D /* Sources */,
+				4D50DD583059899700BDD99D /* Frameworks */,
+				4D50DD593059899700BDD99D /* Resources */,
 			);
 			buildRules = (
 			);
 			name = "Angry Study Helper Extension";
 			productName = "Angry Study Helper Extension";
-			productReference = 4DB5C86E30597D2C0051179F /* Angry Study Helper Extension.appex */;
+			productReference = 4D50DD5B3059899700BDD99D /* Angry Study Helper Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4DB5C84B30597D2A0051179F /* Project object */ = {
+		4D50DD383059899500BDD99D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2700;
 				LastUpgradeCheck = 2700;
 				TargetAttributes = {
-					4DB5C85230597D2B0051179F = {
+					4D50DD3F3059899500BDD99D = {
 						CreatedOnToolsVersion = 27.0;
 					};
-					4DB5C86D30597D2C0051179F = {
+					4D50DD5A3059899700BDD99D = {
 						CreatedOnToolsVersion = 27.0;
 					};
 				};
 			};
-			buildConfigurationList = 4DB5C84E30597D2A0051179F /* Build configuration list for PBXProject "Angry Study Helper" */;
+			buildConfigurationList = 4D50DD3B3059899500BDD99D /* Build configuration list for PBXProject "Angry Study Helper" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 4DB5C84A30597D2A0051179F;
+			mainGroup = 4D50DD373059899500BDD99D;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 4DB5C85430597D2B0051179F /* Products */;
+			productRefGroup = 4D50DD413059899500BDD99D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DB5C85230597D2B0051179F /* Angry Study Helper */,
-				4DB5C86D30597D2C0051179F /* Angry Study Helper Extension */,
+				4D50DD3F3059899500BDD99D /* Angry Study Helper */,
+				4D50DD5A3059899700BDD99D /* Angry Study Helper Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4DB5C85130597D2B0051179F /* Resources */ = {
+		4D50DD3E3059899500BDD99D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
-				4DB5C85D30597D2B0051179F /* Icon.png in Resources */,
-				4DB5C86630597D2B0051179F /* Main.storyboard in Resources */,
-				4DB5C86130597D2B0051179F /* Script.js in Resources */,
-				4DB5C85B30597D2B0051179F /* Main.html in Resources */,
-				4DB5C86830597D2C0051179F /* Assets.xcassets in Resources */,
-				4DB5C85F30597D2B0051179F /* Style.css in Resources */,
+				4D50DD4A3059899500BDD99D /* Icon.png in Resources */,
+				4D50DD533059899500BDD99D /* Main.storyboard in Resources */,
+				4D50DD4E3059899500BDD99D /* Script.js in Resources */,
+				4D50DD483059899500BDD99D /* Main.html in Resources */,
+				4D50DD553059899700BDD99D /* Assets.xcassets in Resources */,
+				4D50DD4C3059899500BDD99D /* Style.css in Resources */,
 			);
 		};
-		4DB5C86C30597D2C0051179F /* Resources */ = {
+		4D50DD593059899700BDD99D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
-				4DB5C88D30597D2C0051179F /* shared in Resources */,
-				4DB5C89030597D2C0051179F /* icons in Resources */,
-				4DB5C88930597D2C0051179F /* background in Resources */,
-				4DB5C88F30597D2C0051179F /* audio in Resources */,
-				4DB5C89130597D2C0051179F /* manifest.json in Resources */,
-				4DB5C88C30597D2C0051179F /* popup in Resources */,
-				4DB5C88E30597D2C0051179F /* browser in Resources */,
-				4DB5C88A30597D2C0051179F /* settings in Resources */,
-				4DB5C88B30597D2C0051179F /* intervention in Resources */,
+				4D50DD7A3059899700BDD99D /* shared in Resources */,
+				4D50DD7D3059899700BDD99D /* icons in Resources */,
+				4D50DD763059899700BDD99D /* background in Resources */,
+				4D50DD7C3059899700BDD99D /* audio in Resources */,
+				4D50DD7E3059899700BDD99D /* manifest.json in Resources */,
+				4D50DD793059899700BDD99D /* popup in Resources */,
+				4D50DD7B3059899700BDD99D /* browser in Resources */,
+				4D50DD773059899700BDD99D /* settings in Resources */,
+				4D50DD783059899700BDD99D /* intervention in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4DB5C84F30597D2B0051179F /* Sources */ = {
+		4D50DD3C3059899500BDD99D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				4DB5C86330597D2B0051179F /* ViewController.swift in Sources */,
-				4DB5C85730597D2B0051179F /* AppDelegate.swift in Sources */,
+				4D50DD503059899500BDD99D /* ViewController.swift in Sources */,
+				4D50DD443059899500BDD99D /* AppDelegate.swift in Sources */,
 			);
 		};
-		4DB5C86A30597D2C0051179F /* Sources */ = {
+		4D50DD573059899700BDD99D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				4DB5C87430597D2C0051179F /* SafariWebExtensionHandler.swift in Sources */,
+				4D50DD613059899700BDD99D /* SafariWebExtensionHandler.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4DB5C87130597D2C0051179F /* PBXTargetDependency */ = {
+		4D50DD5E3059899700BDD99D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4DB5C86D30597D2C0051179F /* Angry Study Helper Extension */;
-			targetProxy = 4DB5C87030597D2C0051179F /* PBXContainerItemProxy */;
+			target = 4D50DD5A3059899700BDD99D /* Angry Study Helper Extension */;
+			targetProxy = 4D50DD5D3059899700BDD99D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4DB5C85930597D2B0051179F /* Main.html */ = {
+		4D50DD463059899500BDD99D /* Main.html */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4DB5C85A30597D2B0051179F /* Base */,
+				4D50DD473059899500BDD99D /* Base */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
 		};
-		4DB5C86430597D2B0051179F /* Main.storyboard */ = {
+		4D50DD513059899500BDD99D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4DB5C86530597D2B0051179F /* Base */,
+				4D50DD523059899500BDD99D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -305,7 +305,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4DB5C87630597D2C0051179F /* Debug configuration for PBXProject "Angry Study Helper" */ = {
+		4D50DD633059899700BDD99D /* Debug configuration for PBXProject "Angry Study Helper" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,7 +368,7 @@
 			};
 			name = Debug;
 		};
-		4DB5C87730597D2C0051179F /* Release configuration for PBXProject "Angry Study Helper" */ = {
+		4D50DD643059899700BDD99D /* Release configuration for PBXProject "Angry Study Helper" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -423,7 +423,7 @@
 			};
 			name = Release;
 		};
-		4DB5C87930597D2C0051179F /* Debug configuration for PBXNativeTarget "Angry Study Helper Extension" */ = {
+		4D50DD663059899700BDD99D /* Debug configuration for PBXNativeTarget "Angry Study Helper Extension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -446,7 +446,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.angrystudyhelper.safari.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.angrystudyhelper.Angry-Study-Helper.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -457,7 +457,7 @@
 			};
 			name = Debug;
 		};
-		4DB5C87A30597D2C0051179F /* Release configuration for PBXNativeTarget "Angry Study Helper Extension" */ = {
+		4D50DD673059899700BDD99D /* Release configuration for PBXNativeTarget "Angry Study Helper Extension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -480,7 +480,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.angrystudyhelper.safari.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.angrystudyhelper.Angry-Study-Helper.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -491,7 +491,7 @@
 			};
 			name = Release;
 		};
-		4DB5C87D30597D2C0051179F /* Debug configuration for PBXNativeTarget "Angry Study Helper" */ = {
+		4D50DD6A3059899700BDD99D /* Debug configuration for PBXNativeTarget "Angry Study Helper" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -533,7 +533,7 @@
 			};
 			name = Debug;
 		};
-		4DB5C87E30597D2C0051179F /* Release configuration for PBXNativeTarget "Angry Study Helper" */ = {
+		4D50DD6B3059899700BDD99D /* Release configuration for PBXNativeTarget "Angry Study Helper" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -578,32 +578,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DB5C84E30597D2A0051179F /* Build configuration list for PBXProject "Angry Study Helper" */ = {
+		4D50DD3B3059899500BDD99D /* Build configuration list for PBXProject "Angry Study Helper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DB5C87630597D2C0051179F /* Debug configuration for PBXProject "Angry Study Helper" */,
-				4DB5C87730597D2C0051179F /* Release configuration for PBXProject "Angry Study Helper" */,
+				4D50DD633059899700BDD99D /* Debug configuration for PBXProject "Angry Study Helper" */,
+				4D50DD643059899700BDD99D /* Release configuration for PBXProject "Angry Study Helper" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		4DB5C87830597D2C0051179F /* Build configuration list for PBXNativeTarget "Angry Study Helper Extension" */ = {
+		4D50DD653059899700BDD99D /* Build configuration list for PBXNativeTarget "Angry Study Helper Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DB5C87930597D2C0051179F /* Debug configuration for PBXNativeTarget "Angry Study Helper Extension" */,
-				4DB5C87A30597D2C0051179F /* Release configuration for PBXNativeTarget "Angry Study Helper Extension" */,
+				4D50DD663059899700BDD99D /* Debug configuration for PBXNativeTarget "Angry Study Helper Extension" */,
+				4D50DD673059899700BDD99D /* Release configuration for PBXNativeTarget "Angry Study Helper Extension" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		4DB5C87C30597D2C0051179F /* Build configuration list for PBXNativeTarget "Angry Study Helper" */ = {
+		4D50DD693059899700BDD99D /* Build configuration list for PBXNativeTarget "Angry Study Helper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DB5C87D30597D2C0051179F /* Debug configuration for PBXNativeTarget "Angry Study Helper" */,
-				4DB5C87E30597D2C0051179F /* Release configuration for PBXNativeTarget "Angry Study Helper" */,
+				4D50DD6A3059899700BDD99D /* Debug configuration for PBXNativeTarget "Angry Study Helper" */,
+				4D50DD6B3059899700BDD99D /* Release configuration for PBXNativeTarget "Angry Study Helper" */,
 			);
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4DB5C84B30597D2A0051179F /* Project object */;
+	rootObject = 4D50DD383059899500BDD99D /* Project object */;
 	validationLevel = 1;
 }

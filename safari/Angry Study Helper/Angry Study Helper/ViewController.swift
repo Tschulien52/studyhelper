@@ -9,7 +9,7 @@ import Cocoa
 import SafariServices
 import WebKit
 
-let extensionBundleIdentifier = "com.angrystudyhelper.safari.Extension"
+let extensionBundleIdentifier = "com.angrystudyhelper.Angry-Study-Helper.Extension"
 
 class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHandler {
 
