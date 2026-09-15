@@ -1,0 +1,2 @@
+export function normalizeDomain(value){let input=String(value??'').trim().toLowerCase();if(!input)return'';try{const url=input.includes('://')?new URL(input):new URL(`https://${input}`);return url.hostname.replace(/^www\./,'').replace(/\.$/,'')}catch{return''}}
+export function isWhitelisted(url,domains=[]){let hostname;try{hostname=new URL(url).hostname.toLowerCase().replace(/^www\./,'')}catch{return false}return domains.map(normalizeDomain).filter(Boolean).some(domain=>hostname===domain||hostname.endsWith(`.${domain}`));}

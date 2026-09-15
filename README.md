@@ -33,9 +33,18 @@ The service worker maintains per-tab handled state and only redirects once per t
 
 Whitelist entries are normalized to hostnames, remove a leading `www.`, and match only the exact hostname or a dot-delimited subdomain (`wikipedia.org` matches `docs.wikipedia.org`, not `notwikipedia.org`).
 
-## Safari preparation
+## Safari Web Extension
 
-The source is intentionally plain WebExtension HTML/JS and uses portable APIs. Later, use Safari’s Web Extension converter in Xcode against the built WebExtension directory, then review the generated app extension and permissions. Expected review points are manifest key support, service-worker lifecycle, tab event details, runtime namespace differences, local audio autoplay, and storage/permission prompts. No fake Safari target is included and Chrome is the currently supported browser.
+Safari uses the same canonical `src/` source. Build its Web Extension directory and generate the macOS Xcode wrapper with Apple’s installed converter:
+
+```sh
+npm run build:safari
+npm run safari:project
+```
+
+The generated project is in `safari/Angry Study Helper/`. Open its `.xcodeproj` in Xcode, select the macOS app target, configure signing, build/run it, and enable the extension in Safari’s Develop menu. The converter-generated wrapper contains a copied Web Extension resource bundle because that is the packaging model Apple’s tool produces; it is not a second source tree.
+
+The Safari build keeps the shared popup, settings, intervention, storage, whitelist, and browser adapter. Its manifest omits Chrome’s `background.type` because the installed Safari converter reports that key as unsupported, and `scripts/build.js` bundles the same background modules into a classic worker. Safari tab-event behavior around blank new tabs, autoplay, permissions, and service-worker lifecycle should still be verified on the target macOS/Safari version. Chrome remains unchanged and is built with `npm run build`.
 
 ## Development and tests
 

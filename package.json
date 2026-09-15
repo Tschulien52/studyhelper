@@ -2,5 +2,5 @@
   "name": "angry-study-helper",
   "version": "1.0.0",
   "private": true,
-  "scripts": {"build":"node scripts/build.js","clean":"node scripts/build.js --clean","test":"node --test test/*.test.js"}
+  "scripts": {"build":"node scripts/build.js","build:safari":"node scripts/build.js --target safari","safari:project":"node scripts/safari-project.js","clean":"node scripts/build.js --clean","test":"node --test test/*.test.js"}
 }
